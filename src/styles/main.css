@@ -340,6 +340,13 @@ header {
   gap: 50px;
 }
 
+.about-image {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
 .about-image img {
   width: 100%;
   max-width: 450px;
