@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -18,10 +20,10 @@ function Footer() {
         <div className="footer-links">
           <h3>Quick Links</h3>
 
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/menu">Menu</a>
-          <a href="/contact">Contact</a>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/menu">Menu</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </div>
 
         {/* CONTACT */}
